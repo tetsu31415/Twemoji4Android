@@ -1,0 +1,5 @@
+*.pyc
+png/
+Twemoji.ttf
+*.tmpl.ttx
+*.tmpl.ttf
