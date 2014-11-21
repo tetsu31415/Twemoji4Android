@@ -22,7 +22,7 @@ See [LICENSE](LICENSE)
 ### noto
 https://code.google.com/p/noto/  
 Copyright 2013 Google, Inc. All Rights Reserved.  
-Licensed under the Apache License, Version 2.0.
+Licensed under the Apache License, Version 2.0.  
 See [LICENSE-NOTO](LICENSE-NOTO)
 
 Resources that used in this software:
@@ -37,7 +37,7 @@ I made the following changes to "add\_glyphs.py" and "emoji\_builder.py":
 ### Twemoji
 https://github.com/twitter/twemoji  
 Copyright 2014 Twitter, Inc and other contributors   
-Graphics are licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Graphics are licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/  
 See [LICENSE-GRAPHICS](LICENSE-GRAPHICS)  
 
 Resources that used in this software:
