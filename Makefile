@@ -14,7 +14,7 @@
 
 # November 21, 2014
 # Modified by tetsu31415
-
+SHELL:=/bin/bash
 EMOJI = Twemoji
 font: $(EMOJI).ttf
 
