@@ -51,7 +51,7 @@ def add_ligature (font, codes):
 
 		lig = otTables.Ligature()
 		lig.CompCount = len(codes)
-		lig.Component = ["%04X" % int(codes[1],16)]
+		lig.Component = [glyph_name([code]) for code in codes[1:]]
 		lig.LigGlyph = glyph_name(codes)
 
 		first = "%04X" % int(codes[0],16)
@@ -108,7 +108,7 @@ h = font['hmtx'].metrics
 # and avoid adding empty glyphs for multi-character glyphs if any piece is
 # also included.
 img_pairs = img_files.items ()
-img_pairs.sort (key=lambda pair: (len (pair[0]), pair[0]))
+img_pairs.sort (key=lambda pair: (len (pair[0]), pair[0]), reverse=True)
 
 for code in [0x23,0x30,0x31,0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39,0x20e3]:
 	g.append("%04X" % code)
